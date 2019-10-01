@@ -1,1 +1,1 @@
-# Patti
+# Dans le cadre de la formation Référent Numérique dispensé par l'INSA de Rouen Normandie, du CESI ainsi que de Simplon, j'avais en charge de reproduire un thème WordPress entièrement en HTML/CSS en suivant les bonnes pratiques de structure, de sémantique et de mise en forme, comme le BEM par exemple. C'était également l'occassion de mettre en pratique mes nouvelles connaissances sur le flex et le grid pour le CSS mais également d'intégrer quelques animations.
