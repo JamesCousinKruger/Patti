@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Site de démonstration en HTML/CSS basé sur le thème WordPress Patti">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e571746338.js"></script>
+    <link rel="icon" type="image/png" href="../images/logo-patti.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <title>Patti</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="gutter-v flex-between">
+            <a href="#"><img class="header__logo" src="../images/logo-patti.png" alt="logo-site"></a>
+            <div>
+                <nav class="header__nav">
+                    <label for="nav__hamburger">&#9776;</label>
+                    <input type="checkbox" id="nav__hamburger" />
+                    <ul class="header__nav__list">
+                        <li class="list-item__nav"><a class="item-link__nav" href="#">hello</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#about">about</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#portfolio">work</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#services">service</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#">journal</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#">extra</a></li>
+                        <li class="list-item__nav"><a class="item-link__nav" href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="banner">
+                <div class="banner_slide">
+                    <div class="banner__slide__card">
+                        <img class="img-card-slide" src="../images/slide33.jpg" alt="banner-site">
+                        <div class="title-banner">
+                            <div class="block-banner-title">
+                                <h1 class="up-case heading--1 border">we are patti studio</h1>
+                                <p class="up-case bold">------------ since 2008 ------------</p>
+                                <p class="up-case text-tall bold">serving web design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner__slide__card">
+                        <img class="img-card-slide" src="../images/slide11.png" alt="banner-site">
+                        <div class="title-banner">
+                            <p class="block-banner-title up-case heading--1 border">it all starts with a vision</p>
+                        </div>
+                    </div>
+                    <div class="banner__slide__card">
+                        <img class="img-card-slide" src="../images/slide44.jpg" alt="banner-site">
+                        <div class="title-banner">
+                            <p class="block-banner-title up-case heading--1 border">just love what we do</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="about" class="about gutter-v">
+            <div class="block-title">
+                <h2 class="block-title__heading">we're patti studio</h2>
+                <hr class="block-title__underline">
+            </div>
+            <div class="about__panel">
+                <div class="about__panel__details">
+                    <h3 class="details-about__heading">we care.</h3>
+                    <p class="details-about__text text-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                </div>
+                <div class="about__panel__details">
+                    <h3 class="details-about__heading">we deliver.</h3>
+                    <p class="details-about__text text-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                </div>
+                <div class="about__panel__details">
+                    <h3 class="details-about__heading">we're creative.</h3>
+                    <p class="details-about__text text-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                </div>
+            </div>
+            <hr class="about__separate__panel">
+            <div class="about__panel">
+                <div class="about__panel__details">
+                    <h3 class="details-about__heading">about us</h3>
+                    <p class="details-about__text text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam sapien, auctor sed blandit nec, adipiscing eget elit. Duis tempor elementum quam consequat condimentum. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus.Praesent volutpat nisl fringilla felis sodales elementum. Ut commodo arcu massa.</p>
+                    <p class="details-about__text text-content">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus…</p>
+                </div>
+                <div class="about__panel__skill">
+                    <p class="skill-about__text-value up-case" style="width:65%" data-value="65">html5</p>
+                    <progress max="100" value="65" class="skill-about__block-bar">
+                        <div class="skill-about__block-bar__bar">
+                            <span class="block-bar__bar__value" style="width: 65%">65%</span>
+                        </div>
+                    </progress>
+                    <p class="skill-about__text-value capitalize" style="width:45%" data-value="45">illustrator</p>
+                    <progress max="100" value="45" class="skill-about__block-bar">
+                        <div class="skill-about__block-bar__bar">
+                            <span class="block-bar__bar__value" style="width: 45%">45%</span>
+                        </div>
+                    </progress>
+                    <p class="skill-about__text-value capitalize" style="width:95%" data-value="95">photoshop</p>
+                    <progress max="100" value="95" class="skill-about__block-bar">
+                        <div class="skill-about__block-bar__bar">
+                            <p class="block-bar__bar__value" style="width: 95%">95%</p>
+                        </div>
+                    </progress>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team gutter-v">
+            <div class="block-title">
+                <h2 class="block-title__heading">our team</h2>
+                <hr class="block-title__underline">
+            </div>
+            <span class="team__intro text-content">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse</span>
+            <div class="team__panel">
+                <div class="team__panel__card">
+                    <img class="card-team__img" src="../images/portrait-john-doe.jpeg" alt="member-picture">
+                    <div class="card-team__block-id">
+                        <span class="block-id__name">john doe</span>
+                        <hr class="block-id__underline">
+                    </div>
+                    <span class="card-team__function text-content">graphic designer</span>
+                    <p class="card-team__details text-content">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.</p>
+                    <div>
+                        <a class="card-team__social fab fa-facebook-f" href="#"></a>
+                        <a class="card-team__social fab fa-twitter" href="#"></a>
+                        <a class="card-team__social fab fa-google-plus-g" href="#"></a>
+                        <a class="card-team__social fab fa-linkedin-in" href="#"></a>
+                    </div>
+                </div>
+                <div class="team__panel__card">
+                    <img class="card-team__img" src="../images/portrait-andrew-clark.jpeg" alt="member-picture">
+                    <div class="card-team__block-id">
+                        <span class="block-id__name">andrew clark</span>
+                        <hr class="block-id__underline">
+                    </div>
+                    <span class="card-team__function text-content">web developper</span>
+                    <p class="card-team__details text-content">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.</p>
+                    <div>
+                        <a class="card-team__social fab fa-facebook-f" href="#"></a>
+                        <a class="card-team__social fab fa-twitter" href="#"></a>
+                        <a class="card-team__social fab fa-google-plus-g" href="#"></a>
+                        <a class="card-team__social fab fa-linkedin-in" href="#"></a>
+                    </div>
+                </div>
+                <div class="team__panel__card">
+                    <img class="card-team__img" src="../images/portrait-patrick-smith.jpeg" alt="member-picture">
+                    <div class="card-team__block-id">
+                        <span class="block-id__name">patrick smith</span>
+                        <hr class="block-id__underline">
+                    </div>
+                    <span class="card-team__function text-content">marketing manager</span>
+                    <p class="card-team__details text-content">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.</p>
+                    <div>
+                        <a class="card-team__social fab fa-facebook-f" href="#"></a>
+                        <a class="card-team__social fab fa-twitter" href="#"></a>
+                        <a class="card-team__social fab fa-google-plus-g" href="#"></a>
+                        <a class="card-team__social fab fa-linkedin-in" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quote parallax gutter-h">
+            <div class="quote__background__opacity">
+                <blockquote class="quote__block gutter-v">
+                    <p class="quote__text text-tall">"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."</p>
+                    <cite class="quote__author"><span>- antoine de saint-exupery</span></cite>
+                </blockquote>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="block-title">
+                <h2 class="block-title__heading">our work</h2>
+                <hr class="block-title__underline">
+            </div>
+            <div class="gallery">
+                <input type="radio" name="gallery" id="tab1" aria-controls="all" checked>
+                <label for="tab1">All</label>
+                <input type="radio" name="gallery" id="tab2" aria-controls="branding">
+                <label for="tab2">Branding</label>
+                <input type="radio" name="gallery" id="tab3" aria-controls="marketing">
+                <label for="tab3">Marketing</label>
+                <input type="radio" name="gallery" id="tab4" aria-controls="media">
+                <label for="tab4">Media</label>
+                <input type="radio" name="gallery" id="tab5" aria-controls="photography">
+                <label for="tab5">Photography</label>
+                <input type="radio" name="gallery" id="tab6" aria-controls="print">
+                <label for="tab6">Print</label>
+                <input type="radio" name="gallery" id="tab7" aria-controls="webdesign">
+                <label for="tab7">Web Design</label>
+                <div class="gallery__slider">
+                    <section id="all" class="gallery__slider__filter">
+                        <div class="filter-gallery__card-grid">
+                            <div class="card-filter__one">
+                                <img class="card-filter-grid__img" src="../images/projet-lapd1947.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__two">
+                                <img class="card-filter-grid__img" src="../images/projet-outdoorphotoshoot.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__three">
+                                <img class="card-filter-grid__img" src="../images/projet-nex7space.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__four">
+                                <img class="card-filter-grid__img" src="../images/projet-seasidestore.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__six">
+                                <img class="card-filter-grid__img" src="../images/projet-maybeonedayfashion.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__five">
+                                <img class="card-filter-grid__img" src="../images/projet-childhoodmemories.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__ten">
+                                <img class="card-filter-grid__img" src="../images/projet-focuslab.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__seven">
+                                <img class="card-filter-grid__img" src="../images/projet-itssummertime.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__eight">
+                                <img class="card-filter-grid__img" src="../images/projet-timeisnothing.jpeg" alt="photo-project">
+                            </div>
+                            <div class="card-filter__nine">
+                                <img class="card-filter-grid__img" src="../images/projet-gibsonguitar.jpeg" alt="photo-project">
+                            </div>
+                        </div>
+                    </section>
+                    <section id="branding" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-focuslab.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-gibsonguitar.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                    <section id="marketing" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-seasidestore.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-itssummertime.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                    <section id="media" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-outdoorphotoshoot.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-childhoodmemories.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-gibsonguitar.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                    <section id="photography" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-lapd1947.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-outdoorphotoshoot.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-maybeonedayfashion.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-focuslab.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-timeisnothing.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                    <section id="print" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-lapd1947.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-childhoodmemories.jpeg" alt="photo-project">
+                            <img class="card-filter__img" src="../images/projet-itssummertime.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                    <section id="webdesign" class="gallery__slider__filter">
+                        <div class="filter-gallery__card">
+                            <img class="card-filter__img" src="../images/projet-nex7space.jpeg" alt="photo-project">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="keyfigure" id="keyfigure">
+            <div class="block-title">
+                <h2 class="block-title__heading">some fun facts</h2>
+                <hr class="block-title__underline">
+            </div>
+            <div class="keyfigure__panel gutter-v">
+                <div class="keyfigure__panel__card">
+                    <span class="card-keyfigure__number number">134</span>
+                    <span class="card-keyfigure__label text-content">cups of coffee</span>
+                </div>
+                <hr class="keyfigure__separate-card">
+                <div class="keyfigure__panel__card">
+                    <span class="card-keyfigure__number number">75</span>
+                    <span class="card-keyfigure__label text-content">projects delivred</span>
+                </div>
+                <hr class="keyfigure__separate-card">
+                <div class="keyfigure__panel__card">
+                    <span class="card-keyfigure__number number">28</span>
+                    <span class="card-keyfigure__label text-content">satisfed clients</span>
+                </div>
+                <hr class="keyfigure__separate-card">
+                <div class="keyfigure__panel__card">
+                    <span class="card-keyfigure__number number">12</span>
+                    <span class="card-keyfigure__label text-content">winning awards</span>
+                </div>
+            </div>
+        </section>
+        <section class="services__background parallax" id="services">
+            <div class="services__background__opacity">
+                <div class="services gutter-v">
+                    <div class="block-title">
+                        <h2 class="block-title__heading">services</h2>
+                        <hr class="block-title__underline">
+                    </div>
+                    <div class="services__panel">
+                        <div class="services__panel__card">
+                            <span class="card-services__img fas fa-microphone"></span>
+                            <span class="card-services__label">social media</span>
+                        </div>
+                        <div class="services__panel__card">
+                            <span class="card-services__img fas fa-cogs"></span>
+                            <span class="card-services__label">clean code</span>
+                        </div>
+                        <div class="services__panel__card">
+                            <span class="card-services__img fas fa-camera-retro"></span>
+                            <span class="card-services__label">photography</span>
+                        </div>
+                        <div class="services__panel__card">
+                            <span class="card-services__img fas fa-edit"></span>
+                            <span class="card-services__label">copywrinting</span>
+                        </div>
+                        <div class="services__panel__card">
+                            <span class="card-services__img fas fa-clock"></span>
+                            <span class="card-services__label">delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="block-title">
+                <h2 class="block-title__heading">testimonials</h2>
+                <hr class="block-title__underline">
+            </div>
+            <div class="testimonials__panel">
+                <div class="testimonials__slider">
+                    <div class="testimonials__slider__card">
+                        <div>
+                            <blockquote>
+                                <p class="card-slider__text text-content">"The work they made impressed me on multiple levels. I have been happy about the whole process and they have done a great job. They was fast to delivery new ideas and always helpful with our questions."</p>
+                                <cite class="bold"><span class="card-slider__author">Richard Brennan</span>, Linda marketing Team</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="testimonials__slider__card">
+                        <div>
+                            <blockquote>
+                                <p class="card-slider__text text-content">"The work they made impressed me on multiple levels. I have been happy about the whole process and they have done a great job. They was fast to delivery new ideas and always helpful with our questions."</p>
+                                <cite class="bold"><span class="card-slider__author">Richard Brennan</span>, Linda marketing Team</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="testimonials__slider__card">
+                        <div>
+                            <blockquote>
+                                <p class="card-slider__text text-content">"The work they made impressed me on multiple levels. I have been happy about the whole process and they have done a great job. They was fast to delivery new ideas and always helpful with our questions."</p>
+                                <cite class="bold"><span class="card-slider__author">Richard Brennan</span>, Linda marketing Team</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <div class="partners">
+            <div class="partners__panel gutter-v">
+                <img class="partner__panel__img" src="../images/logo-diagblock.png" alt="logo-diagblock">
+                <img class="partner__panel__img" src="../images/logo-digitalside.png" alt="logo-digitalside">
+                <img class="partner__panel__img" src="../images/logo-homeenergy.png" alt="logo-homeenergy">
+                <img class="partner__panel__img" src="../images/logo-brilliant.png" alt="logo-brilliant">
+                <img class="partner__panel__img" src="../images/logo-spectrum.png" alt="logo-spectrum">
+                <img class="partner__panel__img" src="../images/logo-videosms.png" alt="logo-videosms">
+            </div>
+        </div>
+        <section class="contact parallax" id="contact">
+            <div class="contact__background__opacity">
+                <div class="block-title">
+                    <h2 class="block-title__heading clr-title-secondary">come and work with us</h2>
+                    <hr class="block-title__underline">
+                </div>
+                <div class="contact__panel gutter-v">
+                    <div class="contact__panel__section">
+                        <span class="section-contact__label">contact info</span>
+                        <ul class="section-contact__list">
+                            <address>
+                            <li class="list-contact__info"><i class="fas fa-map-marker-alt fas-custom"></i> amphitheatre parkway, mountain view, ca 94043
+                            </li>
+                        </address>
+                            <li class="list-contact__info"><i class="fas fa-phone-alt fas-custom"></i> +321 123 456 7</li>
+                            <a class="list-contact__info" href="mailto:johndoe@ipsum.com">
+                                <li class="list-contact__info--clr-main"><i class="fas fa-envelope fas-custom"></i> johndoe@ipsum.com</li>
+                            </a>
+                            <a class="list-contact__info" href="www.website.com">
+                                <li class="list-contact__info--clr-main"><i class="fas fa-globe-americas fas-custom"></i> www.website.com</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <form class="contact__form" action="" method="GET">
+                        <div class="contact__form__id-capture">
+                            <input class="id-capture-contact__name" type="text" placeholder="Name" required>
+                            <input class="id-capture-contact__email" type="email" placeholder="Email" required>
+                        </div>
+                        <textarea class="contact__form__msg-capture" cols="40" rows="10" placeholder="Message" required></textarea>
+                        <div class="contact__form__send-btn">
+                            <input class="send-btn" type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer gutter-v">
+        <div class="footer__panel">
+            <span class="footer__panel__copyright text-content">Copyright 2016 - Patti.All Rights Reserved</span>
+            <div class="footer__panel__socials">
+                <a class="socials-footer__icon fas fa-rss" href=""></a>
+                <a class="socials-footer__icon fab fa-facebook-f" href=""></a>
+                <a class="socials-footer__icon fab fa-twitter" href=""></a>
+            </div>
+        </div>
+        <a href="#" class="footer__back-to-top fas fa-angle-double-up"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
